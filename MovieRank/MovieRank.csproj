@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="awssdk.dynamodbv2" Version="3.7.0.12" />
+    <PackageReference Include="awssdk.extensions.netcore.setup" Version="3.7.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MovieRank.Contracts\MovieRank.Contracts.csproj" />
+    <ProjectReference Include="..\MovieRank.Libs\MovieRank.Libs.csproj" />
+  </ItemGroup>
+
+</Project>
